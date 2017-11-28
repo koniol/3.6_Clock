@@ -3,7 +3,7 @@ class Clock{
         this.running = false;
         this.display = display;
         this.reset();
-        this.print(this.times);
+        this.print();
     }
 
     createTime(){
